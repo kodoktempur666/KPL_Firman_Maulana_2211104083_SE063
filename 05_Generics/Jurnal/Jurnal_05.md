@@ -113,7 +113,7 @@ sebagai berikut:
 MENAMBAHKAN METHOD DENGAN GENERIC
 Tanpa membuat file baru (gunakan file yang dibuat saat membuat project dan pastikan branch
 aktif adalah pada branch implementasi-generic-class):
---
+
 A. Buatlah sebuah class bernama “SimpleDataBase” dengan mengikuti class model yang
 ditunjukkan pada gambar/tabel di bawah ini.
 --
