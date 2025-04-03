@@ -34,7 +34,7 @@ TELKOM UNIVERSITY PURWOKERTO
 ## A. Soal Nomor 1
 
 Menambahkan method dengan generic tanpa membuat file baru (gunakan file yang dibuat saat membuat project):
-====
+---
 - Buatlah sebuah class bernama “Penjumlahan”.
 - Pada class tersebut, tambahkan sebuah method dengan nama “JumlahTigaAngka” yang
 memiliki tiga parameter generic yang sama yaitu “T”
@@ -112,7 +112,7 @@ sebagai berikut:
 
 Menambahkan method dengan generic tanpa membuat file baru (gunakan file yang dibuat saat membuat project dan pastikan branch
 aktif adalah pada branch implementasi-generic-class):
-====
+---
 
 A. Buatlah sebuah class bernama “SimpleDataBase” dengan mengikuti class model yang
 ditunjukkan pada gambar/tabel di bawah ini.
@@ -139,11 +139,11 @@ kosong.
 - Method PrintAllData() yang akan memberikan output console berupa teks yang
 menampilkan seluruh data yang tersimpan pada “storedData” dan “inputDates”, contohnya:
 
-    • Data 1 berisi: 12, yang disimpan pada waktu UTC: 3/10/2022 5:32:01 AM
+        • Data 1 berisi: 12, yang disimpan pada waktu UTC: 3/10/2022 5:32:01 AM
 
-    • Data 2 berisi: 34, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
+        • Data 2 berisi: 34, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
 
-    • Data 2 berisi: 56, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
+        • Data 2 berisi: 56, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
 - Panggil method PrintAllData() pada fungsi/method utama setelah menambahkan
 
 **Input**
