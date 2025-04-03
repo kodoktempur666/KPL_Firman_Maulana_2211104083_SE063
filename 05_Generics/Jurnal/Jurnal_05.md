@@ -116,7 +116,7 @@ aktif adalah pada branch implementasi-generic-class):
 --
 A. Buatlah sebuah class bernama “SimpleDataBase” dengan mengikuti class model yang
 ditunjukkan pada gambar/tabel di bawah ini.
-
+--
 - (-) storedData: List (T)
 - (-) inputDates: List (Date)
 
