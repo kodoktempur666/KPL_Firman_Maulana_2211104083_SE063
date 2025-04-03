@@ -126,21 +126,24 @@ ditunjukkan pada gambar/tabel di bawah ini.
 
 B. Class tersebut memiliki dua property yaitu:
 --
-i. Property “storedData” yang merupakan suatu List (struktur data bawaan/default) yang
+- Property “storedData” yang merupakan suatu List (struktur data bawaan/default) yang
 berisi data bertipe generic “T”.
-ii. Property “inputDates” yang bertipe List<Date> (atau tipe data List<DateTime> di C#) yang
+- Property “inputDates” yang bertipe List<Date> (atau tipe data List<DateTime> di C#) yang
 akan list dari waktu input.
 C. Class tersebut juga memiliki beberapa method yaitu:
-i. Konstruktor SimpleDataBase() yang akan membuat property “storedData” berisi List
+--
+- Konstruktor SimpleDataBase() yang akan membuat property “storedData” berisi List
 kosong.
-ii. Method AddNewData(T) yang akan menambahkan data baru bertipe T ke dalam list
+- Method AddNewData(T) yang akan menambahkan data baru bertipe T ke dalam list
 “storedData” dan waktu saat itu (Now) ke dalam list “inputDates”.
-iii. Method PrintAllData() yang akan memberikan output console berupa teks yang
+- Method PrintAllData() yang akan memberikan output console berupa teks yang
 menampilkan seluruh data yang tersimpan pada “storedData” dan “inputDates”, contohnya:
 • Data 1 berisi: 12, yang disimpan pada waktu UTC: 3/10/2022 5:32:01 AM
+-
 • Data 2 berisi: 34, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
+-
 • Data 2 berisi: 56, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
-D. Panggil method PrintAllData() pada fungsi/method utama setelah menambahkan
+- Panggil method PrintAllData() pada fungsi/method utama setelah menambahkan
 
 **Input**
 
