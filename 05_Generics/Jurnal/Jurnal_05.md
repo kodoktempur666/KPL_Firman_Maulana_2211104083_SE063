@@ -34,7 +34,7 @@ TELKOM UNIVERSITY PURWOKERTO
 ## A. Soal Nomor 1
 
 Menambahkan method dengan generic tanpa membuat file baru (gunakan file yang dibuat saat membuat project):
----------------------------------------------------------------------
+====
 - Buatlah sebuah class bernama “Penjumlahan”.
 - Pada class tersebut, tambahkan sebuah method dengan nama “JumlahTigaAngka” yang
 memiliki tiga parameter generic yang sama yaitu “T”
@@ -110,13 +110,13 @@ sebagai berikut:
 
 ## B. Soal Nomor 2
 
-MENAMBAHKAN METHOD DENGAN GENERIC
-Tanpa membuat file baru (gunakan file yang dibuat saat membuat project dan pastikan branch
+Menambahkan method dengan generic tanpa membuat file baru (gunakan file yang dibuat saat membuat project dan pastikan branch
 aktif adalah pada branch implementasi-generic-class):
+====
 
 A. Buatlah sebuah class bernama “SimpleDataBase” dengan mengikuti class model yang
 ditunjukkan pada gambar/tabel di bawah ini.
---------
+-----
 * (-) storedData: List (T)
 * (-) inputDates: List (Date)
 
@@ -125,7 +125,7 @@ ditunjukkan pada gambar/tabel di bawah ini.
 * (+) PrintAllData(): void
 
 B. Class tersebut memiliki dua property yaitu:
---
+----
 - Property “storedData” yang merupakan suatu List (struktur data bawaan/default) yang
 berisi data bertipe generic “T”.
 - Property “inputDates” yang bertipe List<Date> (atau tipe data List<DateTime> di C#) yang
