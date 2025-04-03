@@ -33,8 +33,8 @@ TELKOM UNIVERSITY PURWOKERTO
 
 ## A. Soal Nomor 1
 
-MENAMBAHKAN METHOD DENGAN GENERIC
-Tanpa membuat file baru (gunakan file yang dibuat saat membuat project):
+Menambahkan method dengan generic tanpa membuat file baru (gunakan file yang dibuat saat membuat project):
+---------------------------------------------------------------------
 - Buatlah sebuah class bernama “Penjumlahan”.
 - Pada class tersebut, tambahkan sebuah method dengan nama “JumlahTigaAngka” yang
 memiliki tiga parameter generic yang sama yaitu “T”
@@ -45,10 +45,10 @@ matematis misalnya penjumlahan.
 - Panggil method tersebut pada fungsi/method utama dengan tiga input angka yaitu 2-digit dari
 NIM. Misalnya NIM 12345678, maka tiga input angka yaitu “12”, “34” dan “56” dengan tipe data
 sebagai berikut:
-        - NIM berakhiran 1 atau 2: tipe data input float
-        - NIM berakhiran 3, 4 atau 5: tipe data input double
-        - NIM berakhiran 6, 7 atau 8: tipe data input int
-        - NIM berakhiran 9 atau 0: tipe data input long
+    * NIM berakhiran 1 atau 2: tipe data input float
+    * NIM berakhiran 3, 4 atau 5: tipe data input double
+    * NIM berakhiran 6, 7 atau 8: tipe data input int
+    * NIM berakhiran 9 atau 0: tipe data input long
 
 **Input**
 
@@ -116,13 +116,13 @@ aktif adalah pada branch implementasi-generic-class):
 
 A. Buatlah sebuah class bernama “SimpleDataBase” dengan mengikuti class model yang
 ditunjukkan pada gambar/tabel di bawah ini.
---
-- (-) storedData: List (T)
-- (-) inputDates: List (Date)
+--------
+* (-) storedData: List (T)
+* (-) inputDates: List (Date)
 
-- (+) SimpleDataBase()
-- (+) AddNewData(T)
-- (+) PrintAllData(): void
+* (+) SimpleDataBase()
+* (+) AddNewData(T)
+* (+) PrintAllData(): void
 
 B. Class tersebut memiliki dua property yaitu:
 --
@@ -139,11 +139,11 @@ kosong.
 - Method PrintAllData() yang akan memberikan output console berupa teks yang
 menampilkan seluruh data yang tersimpan pada “storedData” dan “inputDates”, contohnya:
 
-        • Data 1 berisi: 12, yang disimpan pada waktu UTC: 3/10/2022 5:32:01 AM
+    • Data 1 berisi: 12, yang disimpan pada waktu UTC: 3/10/2022 5:32:01 AM
 
-        • Data 2 berisi: 34, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
+    • Data 2 berisi: 34, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
 
-        • Data 2 berisi: 56, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
+    • Data 2 berisi: 56, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
 - Panggil method PrintAllData() pada fungsi/method utama setelah menambahkan
 
 **Input**
