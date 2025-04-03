@@ -138,10 +138,11 @@ kosong.
 “storedData” dan waktu saat itu (Now) ke dalam list “inputDates”.
 - Method PrintAllData() yang akan memberikan output console berupa teks yang
 menampilkan seluruh data yang tersimpan pada “storedData” dan “inputDates”, contohnya:
+-
 • Data 1 berisi: 12, yang disimpan pada waktu UTC: 3/10/2022 5:32:01 AM
--
+
 • Data 2 berisi: 34, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
--
+
 • Data 2 berisi: 56, yang disimpan pada waktu UTC: 3/10/2022 5:32:02 AM
 - Panggil method PrintAllData() pada fungsi/method utama setelah menambahkan
 
