@@ -1,0 +1,24 @@
+{
+    "mata_kuliah": [
+      {
+        "kode": "MK001",
+        "nama": "Design Thinking"
+      },
+      {
+        "kode": "MK002",
+        "nama": "Kalkulus"
+      },
+      {
+        "kode": "MK003",
+        "nama": "Statistika"
+      },
+      {
+        "kode": "MK004",
+        "nama": "Pemrograman Web"
+      },
+      {
+        "kode": "MK005",
+        "nama": "Pemrograman Mobile"
+      }
+    ]
+  }
