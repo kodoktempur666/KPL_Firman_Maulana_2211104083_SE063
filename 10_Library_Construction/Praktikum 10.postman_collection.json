@@ -1,0 +1,282 @@
+{
+	"info": {
+		"_postman_id": "1e1f4902-b791-47c7-8332-d0059938d4cd",
+		"name": "Praktikum 10",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "44457174"
+	},
+	"item": [
+		{
+			"name": "Get All Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/mahasiswa"
+			},
+			"response": [
+				{
+					"name": "Get All Data Mahasiswa",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3000/mahasiswa"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "327"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"147-/S4QYUma4HiPSTpVl4VGOD97rJA\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 06 May 2025 16:41:02 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": [\n        {\n            \"id\": 3,\n            \"nim\": \"2211104083\",\n            \"nama_lengkap\": \"Firman Maulana\",\n            \"email\": \"lontopcx12@gmail.com\",\n            \"no_hp\": \"087875161921\",\n            \"tanggal_lahir\": \"2025-04-04T00:00:00.000Z\",\n            \"jenis_kelamin\": \"L\",\n            \"created_at\": \"2025-05-06T16:39:37.533Z\",\n            \"updated_at\": \"2025-05-06T16:39:37.533Z\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get By Id Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/mahasiswa/1"
+			},
+			"response": [
+				{
+					"name": "Get By Id Mahasiswa",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "localhost:3000/mahasiswa/1"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "73"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"49-1bzejcXYmRlB+/8LVCdhIn2m0XA\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 06 May 2025 16:35:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa fetched successfully\",\n    \"data\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nim\": \"2211104075\",\r\n    \"nama_lengkap\": \"Irfan Muria\",\r\n    \"email\": \"irfanmuria04@gmail.com\",\r\n    \"no_hp\": \"087875161921\",\r\n    \"tanggal_lahir\": \"2025-04-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/mahasiswa"
+			},
+			"response": [
+				{
+					"name": "Add Data Mahasiswa",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104083\",\r\n    \"nama_lengkap\": \"Firman Maulana\",\r\n    \"email\": \"lontopcx12@gmail.com\",\r\n    \"no_hp\": \"087875161921\",\r\n    \"tanggal_lahir\": \"2025-04-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "localhost:3000/mahasiswa"
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "231"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"e7-Saj+giFdJHaYgqCOlGKmCKwRwBM\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 06 May 2025 16:39:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 201,\n    \"message\": \"Mahasiswa created successfully\",\n    \"data\": {\n        \"id\": 3,\n        \"nim\": \"2211104083\",\n        \"nama_lengkap\": \"Firman Maulana\",\n        \"email\": \"lontopcx12@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2025-04-04\",\n        \"jenis_kelamin\": \"L\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nim\": \"2211104075\",\r\n    \"nama_lengkap\": \"Irfan Muria\",\r\n    \"email\": \"irfanmuria04@gmail.com\",\r\n    \"no_hp\": \"087875161921\",\r\n    \"tanggal_lahir\": \"2004-04-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/mahasiswa/1"
+			},
+			"response": [
+				{
+					"name": "Edit Data Mahasiswa",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nim\": \"2211104083\",\r\n    \"nama_lengkap\": \"Firman Maulana\",\r\n    \"email\": \"lontopcx12@gmail.com\",\r\n    \"no_hp\": \"087875161921\",\r\n    \"tanggal_lahir\": \"2004-04-04\",\r\n    \"jenis_kelamin\": \"L\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "localhost:3000/mahasiswa/1"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "325"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"145-tthLCKUTuyALL77vy8E7it73Yuo\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 06 May 2025 16:37:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"message\": \"Mahasiswa updated successfully\",\n    \"data\": {\n        \"id\": 1,\n        \"nim\": \"2211104083\",\n        \"nama_lengkap\": \"Firman Maulana\",\n        \"email\": \"lontopcx12@gmail.com\",\n        \"no_hp\": \"087875161921\",\n        \"tanggal_lahir\": \"2004-04-04T00:00:00.000Z\",\n        \"jenis_kelamin\": \"L\",\n        \"created_at\": \"2025-05-06T16:36:28.742Z\",\n        \"updated_at\": \"2025-05-06T16:37:12.489Z\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Data Mahasiswa",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:3000/mahasiswa/1"
+			},
+			"response": []
+		}
+	]
+}
