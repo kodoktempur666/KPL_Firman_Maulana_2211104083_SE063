@@ -128,19 +128,19 @@ uvicorn.run(app, port=3000)
 **Output**
 
 - GET /api/Mahasiswa
---
+
 ![Image](https://github.com/user-attachments/assets/c81d2764-5c93-49ef-8cea-b138a5cda7ce)
 
 - POST /api/Mahasiswa
---
-![Image](https://github.com/user-attachments/assets/7c850444-ef21-41de-bb52-732571ccd83b)
+
+![Image](https://github.com/user-attachments/assets/41b65769-d8f4-460f-a381-0bbb8e46c2cd)
 
 - GET /api/Mahasiswa/{index}
---
+
 ![Image](https://github.com/user-attachments/assets/6af3ab6b-d760-4037-83b2-e062a37bca24)
 
 - DELETE /api/Mahasiswa/{index}
---
+
 ![Image](https://github.com/user-attachments/assets/fc0e0f97-7b74-4d49-bd13-42d5d524692b)
 
 ---
