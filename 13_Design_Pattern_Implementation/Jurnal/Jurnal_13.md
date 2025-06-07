@@ -31,13 +31,20 @@ TELKOM UNIVERSITY PURWOKERTO
 
 # TUGAS JURNAL
 
-## 1. MENJELASKAN SALAH SATU DESIGN PATTERN
-Buka halaman web https://refactoring.guru/design-patterns/catalog kemudian baca design pattern
-dengan nama “Observer”, dan jawab pertanyaan berikut ini (dalam Bahasa Indonesia):
-- Berikan salah satu contoh kondisi dimana design pattern “Observer” dapat digunakan
-- Berikan penjelasan singkat mengenai langkah-langkah dalam mengimplementasikan design pattern
-“Observer”
-- Berikan kelebihan dan kekurangan dari design pattern “Observer”
+## 1. IMPLEMENTASI PROGRAM UTAMA
+Tambahkan beberapa implementasi di program/method utama atau “main”:
+- Buatlah dua variable dengan tipe “PusatDataSingleton” bernama data1 dan data2.
+- Isi kedua variable tersebut dengan hasil keluaran dari GetDataSingleton().
+- Pada data1 lakukan pemanggilan method AddSebuahData() beberapa kali dengan input nama
+anggota kelompok dan asisten praktikum.
+- Pada data2 panggil method PrintSemuaData(), pastikan keluaran dari hasil print data2
+menampilkan nama-nama anggota kelompok dan asisten praktikum.
+- Pada data2 panggil HapusSebuahData() untuk menghapus nama asisten praktikum anda
+sekarang.
+- Pada data1 panggil PrintSemuaData(), dan seharusnya nama asisten praktikum anda tidak
+muncul di hasil print tersebut.
+- Langkah terakhir, pada data1 dan data2 panggil GetSemuaData() dan lakukan print dari jumlah
+“Count” atau elemen yang ada di list pada data1 dan data2.
 
 ---
 - pusatDataSingleton.js
