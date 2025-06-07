@@ -1,0 +1,22 @@
+{
+  "name": "tp-modul-12",
+  "version": "1.0.0",
+  "description": "Electron App for Testing",
+  "main": "main.js",
+  "directories": {
+    "start": "electron .",
+    "test": "node test/test.js"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.4.0"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
