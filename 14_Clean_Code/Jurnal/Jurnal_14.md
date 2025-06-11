@@ -149,7 +149,7 @@ module.exports = SayaTubeVideo;
 const SayaTubeUser = require('./sayaTubeUser');
 const SayaTubeVideo = require('./sayaTubeVideo');
 
-const namaPraktikan = "rosyid";
+const namaPraktikan = "Firman Maulana";
 
 const filmList = [
   "Si Juki The Movie Panitia Hari Akhir",
